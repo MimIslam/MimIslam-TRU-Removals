@@ -1,0 +1,110 @@
+
+/* Top section Design  */
+
+#Top{}
+#Top .information {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%,
+                rgba(255,252,252,1) 25%, rgba(255,255,255,1) 30%,
+                rgba(163,163,193,1) 37%, rgba(88,80,147,1) 46%, rgba(33,25,97,1) 66%,
+                rgba(15,7,69,1) 87%, rgba(18,11,68,1) 92%,
+                rgba(12,5,47,1) 100%, rgba(24,0,209,1) 100%, rgba(19,28,154,1) 100%); 
+    padding: 10px;
+    color: #ddd;
+    text-align: right;
+}
+#Top .information .container .row  span{}
+
+/* Top nav_section design  */
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -38px;
+    left: 122px;
+    overflow: hidden;
+}
+.logo img{
+    max-width: 100%;
+}
+/* slider_section design  */
+
+#slider_section {
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 0;
+}
+#slider_section::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#slider_section .container .row .col-lg-12 h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+    z-index: 2;
+    font-weight: 900;
+}
+.btn_design {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 40px auto;
+}
+.container .social_Icon{
+    
+}
+.container .social_Icon ul {
+    list-style: none;
+    width: 59px;
+    background: #fff;
+    position: absolute;
+    padding: 10px;
+    border-radius: 40px;
+    top: 64px;
+    right: 0;
+} 
+.container .social_Icon ul li{
+   
+} 
+.container .social_Icon ul li a {
+    color: #fff;
+    background: #555;
+    font-size: 16px;
+    padding: 8px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+}
+.container .social_Icon ul li:hover a .fa-facebook{
+    color: #29487d;
+}
+.container .social_Icon ul li:hover .fa-instagram{
+    color: #8be640;
+}
+.container .social_Icon ul li:hover .fa-linkedin{
+    color: #00A0DC;
+}
+.container .social_Icon ul li:hover .fa-twitter{
+    color: #29487d;
+}

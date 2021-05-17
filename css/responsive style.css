@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1199px) {
+    #Top .information {
+        font-size: 13px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        top: -25px;
+        left: 32px;
+    }
+    .nav-link{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #Top .information {
+        text-align: center;
+        color: #0b000080;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+        top: 0px;
+        left: 62%;
+    }
+    .nav-link{
+        border-bottom: 2px solid #555;
+        width: 142px;
+        transition: 1s;
+    }
+    .nav-link:hover{
+        width: 100%;
+    }
+    .container .social_Icon ul {
+        width: 215px;
+        height: 50px;
+        background: #ffffff45;
+        left: 2px;
+        bottom: 0px;
+        top: 451px;
+        right: 0;
+        border-radius: 34px 0px 35px 5px;
+    }
+    .container .social_Icon ul li{
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .container .social_Icon ul li a {
+        display: inline-block;
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 1px;
+    }
+}
